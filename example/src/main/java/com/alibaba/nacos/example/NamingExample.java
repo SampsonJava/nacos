@@ -33,7 +33,7 @@ import com.alibaba.nacos.api.naming.listener.NamingEvent;
 public class NamingExample {
 
     public static void main(String[] args) throws NacosException {
-
+// 添加注释玩一玩
         Properties properties = new Properties();
         properties.setProperty("serverAddr", System.getProperty("serverAddr"));
         properties.setProperty("namespace", System.getProperty("namespace"));
